@@ -12,6 +12,8 @@
 //
 //= require jquery
 //= require foundation/foundation
+//= require ckeditor/init
+
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .

@@ -3,13 +3,13 @@
  <% @posts.each do |post| %>
   <article>
  
-        <h3><a href="<%= post.id %>"><%= post.title %></a></h3>
+        <h3><a href="posts/<%= post.id %>"><%= post.title %></a></h3>
         <h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
  
         <div class="row">
           <div class="large-6 columns">
-<%= post.description %>            
-  </div>
+			<%= post.description %>            
+		</div>
           <div class="large-6 columns">
             <img src="http://placehold.it/400x240&text=[img]" />
           </div>
