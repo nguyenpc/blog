@@ -25,7 +25,6 @@ Rails.application.configure do
   config.serve_static_files = true
 config.assets.initialize_on_precompile = false
 config.assets.compile = true
-config.action_controller.asset_host = "//#{ENV['FOG_DIRECTORY']}.s3.amazonaws.com"
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
