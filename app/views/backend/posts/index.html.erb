@@ -12,7 +12,7 @@
  <% @posts.each do |post| %>
   <tr>
   <td><a href="posts/<%= post.slug %>"><%= post.title %></a></td>
-  <td><%= post.description[0..20] %>  </a></td>
+  <td><%= post.description%>  </a></td>
   <td><%= post.published %></a></td>
 <% end %>
 </tbody>

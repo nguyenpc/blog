@@ -4,6 +4,7 @@ root 'posts#index'
 mount Ckeditor::Engine => '/ckeditor'
   namespace :backend do
     root to: "posts#index"
+    resources :posts
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

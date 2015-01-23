@@ -11,10 +11,11 @@
     </div>
   <% end %>
 
-
+<div class="gen-form form-group">
   <div class="field">
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, :class=>"form-control", :width => "200px"%>
+  </div>
   </div>
   <div class="field">
     <%= f.label :description %><br>
